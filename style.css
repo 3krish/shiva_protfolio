@@ -31,7 +31,7 @@ body{
     text-decoration: none;
     color: white;
     max-width: 1440px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     padding:0 4rem;
     min-height: 100vh;
 }
@@ -149,10 +149,10 @@ html {
 }
 .container-about{
     display: grid;
-    grid-template-columns: 600px 400px;
+    grid-template-columns: 500px 500px;
     /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
+    align-items: center; */
+    justify-content: space-between; 
 }
 .abouttag{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -215,24 +215,24 @@ p{
 .skill-bar{
     display: grid;
     grid-template-columns: 220px 220px;
-    column-gap: 45px;
+    column-gap: 10px;
     row-gap: 25px;
     grid-row: 2;
 
-    translate: 0px -210px;
+    translate: 0px -220px;
 }
 .skill{
-    height: 48px;
-    width: 240px;
+    height: 40px;
+    width: 200px;
     font-weight: 500;
     align-content: center;
     justify-content: center;
-    /* box-shadow: 2px 2px 2px 2px rgba(15, 32, 79, 1) ; */
+    box-shadow: 2px 2px 2px 2px rgba(15, 32, 79, 1) ;
     border: 1px solid rgba(19, 46, 119, 1);
     color: rgba(45, 149, 150, 1);
     text-align: center;
     border-radius:10px ;
-    font-size: 24px;
+    font-size: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
      /* display: grid;
      align-items: center;
