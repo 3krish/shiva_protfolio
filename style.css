@@ -31,7 +31,7 @@ body{
     text-decoration: none;
     color: white;
     max-width: 1440px;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     padding:0 4rem;
     min-height: 100vh;
 }
@@ -98,10 +98,11 @@ h2,h3,h4{
     align-items: center;
     justify-content: center;
     font-size: 16px;
-    gap: 8px;
+    gap: 1px;
     flex-direction: column;
 }
 .design{
+    /* margin-top: 1rem; */
     margin: 0;
     align-items: center;
     justify-content: center;
@@ -114,7 +115,7 @@ h2,h3,h4{
     font-size: 20px;
     line-height: 32px;
     color: rgba(171, 171, 171, 1);
-    /* margin-top: -4rem; */
+    margin-top: 1rem;
     /* margin-bottom: 12rem; */
 }
 .ui{
@@ -156,6 +157,7 @@ html {
     justify-content: space-between; */
 }
 .abouttag{
+    letter-spacing: 0.8px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     color: rgba(179, 179, 179, 1);
@@ -170,6 +172,7 @@ html {
     flex-direction: column;
 }
 .latest-work{
+    letter-spacing: 0.8px;
     font-weight: bold;
     color: rgba(179, 179, 179, 1);
 }
@@ -244,4 +247,100 @@ p{
     text-decoration: underline;
     text-decoration-color: rgb(114, 212, 114);
     text-underline-offset : 20px ;   
+}
+
+                                            /* service page */
+.service-head{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: rgba(179, 179, 179, 1);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    letter-spacing: 0.8px;
+}
+.head{
+font-size: 24px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+letter-spacing: 0.8px;
+color:rgb(199, 162, 30) ;
+}
+.inform{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;    
+    line-height: 1.6;
+    /* letter-spacing: 1px; */
+}
+.ux-service{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    justify-items: end;
+    align-items: center;
+    margin-top: 30px;
+    padding: 20px 20px;
+}
+.image1{
+    width: 450px;
+    height: auto;
+    border-radius: 12px;
+}
+.role-1{
+    display: grid;
+    gap: 14px;
+}
+.project-button{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 4px;
+    border: none;
+    background-color: rgba(45, 149, 150, 1);
+    border-radius: 10px;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+    translate: 0 -2px;
+}
+.project-button:hover{
+    box-shadow: 4px 4px rgba(254, 239, 139, 1);
+}
+.web-design{
+display: grid;
+grid-template-columns: 1fr 1fr;
+justify-content: space-between;
+align-items: center;
+padding: 20px 20px;
+}
+.image2{
+    width: 500px;
+    height: auto;
+    border-radius: 12px;
+}
+.image3{
+    width: 500px;
+    height: auto;
+    border-radius: 12px;
+}
+.service-page{
+    display: grid;
+    row-gap: 50px;
+}
+.role-2{
+    display: grid;
+    gap: 14px;
+}
+.web-development{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    justify-items: end;
+    align-items: center;
+    padding: 20px 20px;
+}
+.testimonal:hover{
+    box-shadow: 0px 1px 8px 0px rgba(19, 46, 119, 0.6);
+    outline: 1px solid rgba(19, 46, 119, 1);
+    border-radius: 12px;
+    padding: 20px 20px;
 }
