@@ -2,7 +2,7 @@
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 4px;
     border: none;
-    background-color: rgba(45, 149, 150, 1);
+    background-color: #2d9596;
     border-radius: 10px;
     width: 128px;
     height: 48px;
@@ -343,4 +343,52 @@ padding: 20px 20px;
     outline: 1px solid rgba(19, 46, 119, 1);
     /* border-radius: 12px; */
     padding: 20px 20px;
+}
+.border-bottom{
+    border-bottom: 1.4px solid rgb(19, 46, 119);
+    
+}
+
+                                              /*lets chat  */
+
+.lets-chat-button{
+    box-shadow: 0px 1px 8px 0px rgba(19, 46, 119, 0.2);
+    border: 1px solid rgb(19, 46, 119);
+    color: #c7a21e;
+    /* color: #2d9596; */
+    height: 48px;
+    width: 240px;
+    font-weight: 500;
+    border-radius:22px ;
+    font-size: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: rgba(5, 22, 70, 1);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.lets-chat-button:hover{
+    box-shadow: 0px 1px 8px 0px rgba(19, 46, 119, 0.8);
+}
+.footer-icon{
+    box-shadow: 0px 1px 8px 0px rgba(19, 46, 119, 0.2);
+    height: 26px;
+    width: 26px;
+    border: 1.5px solid rgba(19, 46, 119, 1);
+    border-radius: 28px;
+    padding: 14px;
+}
+.footer-icon:hover{
+    box-shadow: 0px 1px 8px 0px rgba(19, 46, 119, 0.8);
+}
+.contact-block{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: 60px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.social-icons{
+display:flex;
+/* grid-template-columns: repeat(6 ,1fr); */
+column-gap: 60px;
 }
