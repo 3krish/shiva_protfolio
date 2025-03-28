@@ -1,3 +1,6 @@
+.content{
+    padding-top: 70px;
+}
 .hire{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 4px;
@@ -16,14 +19,37 @@ a{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-.nav{
-    margin-top: 15px;
+/* .nav{
+    position: fixed;
+    top: 0; left: 0; width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 2.5rem;
     font-size: 16px;
+    height: 40px;
+} */
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(5, 22, 70, 1); /* Semi-transparent black */
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(10px); /* Adds a smooth blur effect */
 }
+.about-page{
+    padding-top: 50px;
+}
+
+
 body{
     background-color: rgba(5, 22, 70, 1);
 }
@@ -35,7 +61,6 @@ body{
     padding:0 4rem;
     min-height: 100vh;
 }
-
 .nav a:link{
     text-decoration: none;
     color: white;
@@ -45,6 +70,7 @@ body{
     color: rgba(45, 149, 150, 1) !important;
 }
 .content{
+    margin-top: 60px;
     margin-bottom: 4rem;
     /* padding-left: 4rem; */
     /* margin-top: 6rem; */
@@ -81,7 +107,7 @@ body{
 }
 .resume{
     margin-left: 26px;
-    font-size: 20px;
+    font-size: 20px;   
 }
 h2,h3,h4{
     margin: 0px;
@@ -161,6 +187,9 @@ html {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     color: rgba(179, 179, 179, 1);
+}
+#work{
+    padding-top: 50px;
 }
 .work{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -250,6 +279,10 @@ p{
 }
 
                                             /* service page */
+#service-container{
+    padding-top: 50px;
+}
+
 .service-head{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
@@ -392,3 +425,4 @@ display:flex;
 /* grid-template-columns: repeat(6 ,1fr); */
 column-gap: 60px;
 }
+#about-me
